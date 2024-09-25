@@ -1,11 +1,14 @@
 The Data Flow Diagram for the IT12L Project of the group of Naranjo, Richard, and Lim. 
 
-I am not sure how to make a data flow diagram, I will just create the processes first then the data for 
-each of the process will be labeled and connected to their own process later.
+The current state of the data flow diagram is in it's final 
+stage, all the necessary processes have been shown and 
+the connections have all been labeled.
 
-The labels and the connection between the processes and the data containers. I am not sure what to number the data containers, what does the number for the data containers mean? not sure.
+Though there are some connections that have names 
+that are way too long. 
 
-The current progress on the DFD.
-![alt text](MISSING-DATA-CONTAINERS-NUMBERS-bonsayRiverviewDFD.svg)
+Changed project structure for easier viewing of files, 
+I thought it would all work fine at first but then I had to 
+divide the DFD into 3 parts and things got cluttered.
 
-The numbers on the data containers to be updated.
+Link to google drive with the data flow diagrams for easy sharing: [google_drive_link](https://drive.google.com/drive/folders/11lLH0B-r8mbK_S03-apwUB1yHn0QD6pL?usp=drive_link)
