@@ -1,0 +1,38 @@
+
+@startuml Use Case Diagram for Customer
+direction top to bottom
+!include dark-theme.puml
+
+' skinparam Style strictuml
+
+actor customer 
+actor server 
+actor staff_member
+
+' participant "provide information" as I
+' down of customer
+
+' usecase purchase as "purchase"  
+
+customer --> (purchase)
+
+(purchase) -> (lodging)
+(purchase) -> (catering)
+
+customer -> (inquire) 
+(inquire) -> (service availability)
+
+(service availability) --> (room schedule)
+
+(inquire) -> (handle inquiry)
+(handle inquiry) -> server
+
+' ref over server, I : server provides tasks to handle customer to staff
+(provide information) -> customer
+(provide information) -> staff_member
+' return Result 
+
+staff_member -> (inventory status check)
+(inventory status check) -> server
+
+@enduml

@@ -1,0 +1,14 @@
+skinparam backgroundColor #1E1E1E  
+
+skinparam componentBackgroundColor #2D2D2D
+skinparam componentBorderColor #FFFFFF  
+
+skinparam arrowColor #FFFFFF  
+skinparam defaultFontColor #FFFFFF  
+skinparam classBorderColor #FFFFFF  
+
+skinparam usecaseBackgroundColor #2D2D2D  
+skinparam usecaseBorderColor #6A6A6A
+
+skinparam actorBorderColor #FFFFFF  
+skinparam actorFontColor #FFFFFF
